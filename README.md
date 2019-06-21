@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img style="-webkit-user-select: none;padding: 10px;" src="https://i.imgur.com/IYXy1ry.png" height="200">
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+## RocketSeat - OmniStack 7.0 (Instarocket) FRONTEND
+O Instarocket (FRONTEND) é um dos projetos desenvolvidos no Workshop **Semana OmniStack 7.0** da *RocketSeat*. Este website servirá como plataforma web onde os usuários poderão realizar suas postagens e visualizar a listagens de postagens constantes na API do projeto. Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app) e foi desenvolvido com ReactJS.
+
+Todo o ecosistema desenvolvido neste Workshop, consiste em um aplicativo baseado no **Instagram**, uma versão bem mais simples, onde teremos basicamente uma listagem de feeds e uma seção para envio das postagens.
+
+## Tecnologias Envolvidas
+- NodeJS;
+- nodemon (desenvolvimento);
+- Cors;
+- ExpressJS;
+- Socket.io;
+- MulterJS;
+- Mongoose ORM;
+- MongoDB;
+- Yarn;
+
+
+## Funcionalidades
+- Listagem de Feeds;
+- Criação de Postagens.
+
+
+## Comandos
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Executa a aplicação no modo de desenvolvimento.<br>
+Abra [http://localhost:3000](http://localhost:3000) no navegador para poder visualizar.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+O site irá ser recarregado sempre que ocorrer uma alteração.<br>
+O código do projeto será validado pelo `ESLINT` e as mensagens de erro serão exibidas no `console`.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Executa os testes da aplicação no modo interativo.<br>
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Gera os arquivos de produção na pasta `build`.<br>
+Ele compila os códigos no modo de produção otimizando os códigos para um melhor desempenho.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Os arquivos compilados são `minificados` e os nomes dos arquivos incluem hashes. <br>
+Seu aplicativo estará pronto para ser implantado!
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Nota: Esta é uma operação unidirecional. Depois de "eject" (ejetar), você não poderá voltar atrás**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você não estiver satisfeito com as opções de configuração e a ferramenta de construção, poderá utiliza o comando de "ejetar" a qualquer momento. Este comando removerá as dependências de construção do seu projeto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Em vez disso, copiará todos os arquivos de configuração e as dependências transitivas (Webpack, Babel, ESLint, etc) diretamente para o seu projeto, para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas apontarão para os scripts copiados, para que você possa ajustá-los. Neste momento você está sozinho.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Você não precisa usar o comando "eject". O conjunto de recursos com curadoria é adequado para implantações pequenas e intermediárias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estivesse pronto para isso.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Todo
+...
